@@ -1,0 +1,116 @@
+
+
+*{
+	box-sizing: border-box;
+}
+#chicken{
+	background-color:pink;
+	position: relative;
+	font-family:verdana;
+	width:28%;
+
+}
+#beef{
+	
+	background-color:yellow;
+	position: relative;
+	font-family:verdana;
+	width:28%;
+	
+}
+#sushi{
+	
+	background-color:violet;
+	position: relative;
+	font-family:verdana;
+	width:28%;
+
+}
+@media screen and (min-width: 992px){
+	#chicken{
+		width:28%;
+	}
+	#beef{
+		width:28%;
+	}
+	#sushi{
+		width:28%;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px)
+{
+	#chicken{
+		width:40%;
+		margin-right:50px;
+		margin-left:35px;
+	}
+	#beef{
+		width:40%;
+		margin-right:10px;
+	}
+	#sushi{
+		width:90%;
+	}
+}
+@media screen and (max-width: 767px){
+	#chicken{
+		width:80%;
+	}
+	#beef{
+		width:80%;
+	}
+	#sushi{
+		width:80%;
+	}
+}
+
+p{
+	
+	
+	float:left;	
+	border:2px solid black;
+	padding-top:40px;
+	padding-left:10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	margin-left:37px;
+	
+	
+}
+h1{
+	text-align: center;
+
+}
+
+
+#h1{border-right: 2px solid black;
+	border-bottom: 1.5px solid black;
+	padding:5px;
+	font-size: 25px;
+	position:absolute;
+	top :0;
+	left:0;
+	background-color: red;
+}
+
+#h2{border-right: 2px solid black;
+	border-bottom: 1.5px solid black;
+	padding:5px;
+	font-size: 25px;
+	position:absolute;
+	top :0;
+	left:0;
+	background-color: blue;
+}
+#h3{
+	border-right: 2px solid black;
+	border-bottom: 1.5px solid black;
+	position:absolute;
+	font-size: 25px;
+	padding:5px;
+	top :0;
+	left:0;
+	background-color: green;
+}
+
+
